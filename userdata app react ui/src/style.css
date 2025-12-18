@@ -1,0 +1,39 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  width: 320px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.info {
+  margin: 0.6rem 0;
+  color: #555;
+}
+
+.loading {
+  color: white;
+  font-size: 1.4rem;
+}
